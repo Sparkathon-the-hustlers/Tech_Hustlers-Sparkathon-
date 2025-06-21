@@ -1,2 +1,2 @@
 # Tech_Hustlers-Sparkathon-
-This will be our 'Sparkathon hackathon project
+This will be our 'Sparkathon' hackathon project
