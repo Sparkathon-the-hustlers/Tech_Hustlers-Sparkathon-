@@ -1,17 +1,19 @@
 .navbar{
-    background-color: hsl(190, 96%, 30%);
+    background-color: hsl(212, 96%, 42%);
     color:aliceblue;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    box-shadow: 2px 4px 6px hsl(0, 0%, 20%);
+    box-shadow: 0px 2px 4px hsl(0, 0%, 20%);
 }
 
 .nav-logo{
     font-size: 1.5rem;
     font-weight: bold;
     text-transform:uppercase;
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .nav-search{
@@ -27,14 +29,22 @@
     gap: 30px;
 }
 
+.nav-links li{
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+}
+
+.nav-links li:hover{
+    background-color: hsl(190, 97%, 38%);
+    transition: 0.2s ease-in;
+}
+
 .nav-links a{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.nav-links a:hover{
-    color:rgb(255, 200, 127)
+    color: aliceblue;
+    padding: 6px 6px;
 }
